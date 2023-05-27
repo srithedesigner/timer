@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+.box {
+    min-height: 120px;
+    min-width: 200px;
+    margin: 30px;
+    background: rgba(43, 42, 42, 0.75);
+    display: inline-block;
+    
+    font-family: Inter;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 74px;
+    padding-top: 10%;
+
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.label {
+    min-height: 120px;
+    min-width: 200px;
+    margin: 30px;
+    display: inline-block;
+    
+    font-family: Inter;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    flex-wrap: wrap;
+}
+
+/* 
+.sound{
+    display: none;
+} */
